@@ -12,19 +12,18 @@ public class ChangeExercice {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to 'Change for a Dollar'! " +
-                "Your goal is to enter enough change to make exactly $1.00");
+        System.out.println("Enter the exaclty change to get 1 dollar");
 
-        System.out.println("Enter your number of pennies:");
+        System.out.println("Number of pennies:");
         int numOfPennies = scanner.nextInt();
 
-        System.out.println("Enter your number of nickels:");
+        System.out.println("Number of nickels:");
         int numOfNickels = scanner.nextInt();
 
-        System.out.println("Enter your number of dimes:");
+        System.out.println("Number of dimes:");
         int numOfDimes = scanner.nextInt();
 
-        System.out.println("Enter your number of quarters:");
+        System.out.println("Number of quarters:");
         int numOfQuarters = scanner.nextInt();
 
         scanner.close();
