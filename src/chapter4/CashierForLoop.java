@@ -10,7 +10,7 @@ public class CashierForLoop {
         double total = 0;
 
         for (var i = 0; i < items; i++) {
-            System.out.println("enter the cost of the " + i + " item: ");
+            System.out.println("enter the cost of the " + (i + 1) + " item: ");
             double price = scanner.nextDouble();
             total = total + price;
 
